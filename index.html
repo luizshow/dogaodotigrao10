@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogão do Tigrão</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="text-white py-2">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <div class="d-flex align-items-center mb-3 mb-md-0">
+                <img src="images/logo-2.png" alt="Logo" class="header-img me-3">
+                <div>
+                    <h1 class="header-title">Dogão do Tigrão</h1>
+                    <p class="header-subtitle">O melhor dogão de Frutal!</p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-end">
+                <a href="pages/login.html" class="btn btn-outline-light mb-2 me-2">Login</a>
+                <a href="pages/login.html" class="btn btn-outline-light mb-2">Cadastro</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5></h5>
+                    <p></p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5></h5>
+                    <p></p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5></h5>
+                    <p></p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/4.jpg" alt="Fourth slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5></h5>
+                    <p></p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/5.jpg" alt="Fifth slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5></h5>
+                    <p></p> -->
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <section class="py-5" id="cardapio">
+        <div class="container">
+            <h2 class="mb-4">Cardápio</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid w-100" src="images/tradicional.png" alt="Hot Dog 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Hot Dog tradicional</h5>
+                            <p class="card-text">Salsicha suculenta com ketchup, mostarda e maionese. O tradicional que nunca sai de moda.</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 14,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid w-100" src="images/carne-removebg-preview.png" alt="Hot Dog 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Hot Dog de Frango</h5>
+                            <p class="card-text">Frango desfiado no ponto perfeito. Um sabor único e irresistível.</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 17,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid w-100" src="images/carne2R.png " alt="Hot Dog 3"  >
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Dog de Carne</h5>
+                            <p class="card-text">Salsicha  e uma incrivel carne moida. Uma opção deliciosa.</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 17,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/misto-removebg-preview.png" alt="Hot Dog 4" >
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Dog de  Misto</h5>
+                            <p class="card-text">Salsicha ,frango e carne. Para quem gosta de uma sensacional mistura.</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 18,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Costela-removebg-preview.png" alt="Hot Dog 8">
+                        <div class="card-body">
+                            <h5 class="card-title">Costela</h5>
+                            <p class="card-text">Costela perfeita desfiada no ponto. Um sabor surpreendente.</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 20,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/misto_caladim-removebg-preview.png" alt="Hot Dog 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Misto Caladim</h5>
+                            <p class="card-text">Uma execelente mistura de frango e costela desfiada. Uma combinação perfeita!</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 21,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/misto_luizshow-removebg-preview.png" alt="Hot Dog 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Misto Luizshow</h5>
+                            <p class="card-text">Uma incrivel combinacao de costela e carne. Um toque de sofisticação.</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 21,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/brabo-removebg-preview.png" alt="Hot Dog 7">
+                        <div class="card-body">
+                            <h5 class="card-title">O Brabo</h5>
+                            <p class="card-text">Mistura de carne, frango, costela e bacon . Uma explosão de sabores!</p>
+                            <div class="mt-auto">
+                                <p class="card-text"><strong>R$ 28,00</strong></p>
+                                <a href="#" class="btn btn-primary btn-align-bottom">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+
+    </section>
+    <section class="about-section" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Sobre Nós</h2>
+                    <p>Francielle e Eduardo, um casal cheio de energia e amor pela gastronomia, decidiram transformar a cozinha de casa em um pequeno negócio de cachorro-quente em Frutal, MG. Com ingredientes selecionados e uma pitada de criatividade, eles logo se destacaram entre os moradores locais. Sua casa se tornou um ponto de encontro aconchegante, onde amigos e familiares se reuniam para saborear os deliciosos cachorros-quentes preparados por eles. Com o passar do tempo, o aroma tentador que emanava da casa de Francielle e Eduardo atraiu ainda mais clientes, tornando-os uma parte querida da comunidade de Frutal.</p>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/sobrenos.jpg" alt="Sobre Nós" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-5" id="contato" style="background-color: #000;">
+        <div class="container-fluid text-white text-decoration">
+            <div class="row">
+                <div class="col-lg-4 footer-info">
+                    <p>Endereço: Madalena Signoreli Nunes, 98 - Frutal, Minas Gerais</p>
+                    <p>Instagram: @dogaodotigrao</p>
+                    <p>Telefone: (17) 98812-9619</p>
+                    <p>Whatsapp: (34) 9978-3791</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="text-white">Siga-nos</h2>
+                    <div class="social-icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-whatsapp"></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

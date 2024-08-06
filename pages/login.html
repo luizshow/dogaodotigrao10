@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogão do Tigrão - Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.css">
+</head>
+<body>
+    <header class="text-white py-2">
+        <div class="container d-flex align-items-center">
+            <img src="../images/logo-2.png" alt="Logo" class="header-img mr-3">
+            <div>
+                <h1 class="header-title">Dogão do Tigrão</h1>
+                <p class="header-subtitle">O melhor dogão de Frutal!</p>
+            </div>
+        </div>
+    </header>
+<div class="container bg-" style="margin-top: 5%;">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <br/>
+            <ul class="nav nav-pills justify-content-evenly mb-3">
+                <li class="nav-item">
+                    <a class="btn btn-lg btn-secondary mr-2" data-toggle="tab" href="#admin">Admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-lg btn-secondary mr-2" data-toggle="tab" href="#client">Cliente</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="admin" class="tab-pane fade show active">
+                    <form id="admin-login-form">
+                        <div class="form-group">
+                            <label for="admin-username">Nome do Administrador</label>
+                            <input type="text" class="form-control" id="admin-username" name="admin-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin-email">Email:</label>
+                            <input type="email" class="form-control" id="admin-email" name="admin-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin-password">Senha:</label>
+                            <input type="password" class="form-control" id="admin-password" name="admin-password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin-confirm-password">Confirmação de Senha:</label>
+                            <input type="password" class="form-control" id="admin-confirm-password" name="admin-confirm-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-secondary mt-3">Enviar</button>
+                        <a href="#" class="float-right btn btn-link">Esqueceu a Senha?</a>
+                    </form>
+                    <br/>
+                    <a href="#" class="float-right btn btn-block btn-warning">Já é cadastrado?</a>
+                </div>
+
+                <div id="client" class="tab-pane fade">
+                    <form id="client-login-form">
+                        <div class="form-group">
+                            <label for="client-username">Nome do Usuário</label>
+                            <input type="text" class="form-control" id="client-username" name="client-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-email">Email:</label>
+                            <input type="email" class="form-control" id="client-email" name="client-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-password">Senha:</label>
+                            <input type="password" class="form-control" id="client-password" name="client-password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="client-confirm-password">Confirmação de Senha:</label>
+                            <input type="password" class="form-control" id="client-confirm-password" name="client-confirm-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
+                        <a href="#" class="float-right btn btn-link">Esqueceu a Senha?</a>
+                    </form>
+                    <br/>
+                    <a href="#" class="float-right btn btn-block btn-warning">Já é cadastrado?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer mt-5" style="background-color: #000;">
+    <div class="container-fluid text-white text-decoration">
+        <div class="row">
+            <div class="col-lg-4 footer-info">
+                <p>Endereço: Madalena Signoreli Nunes, 98 - Frutal, Minas Gerais</p>
+                <p>Instagram: @dogaodotigrao</p>
+                <p>Telefone: (17) 98812-9619</p>
+                <p>Whatsapp: (34) 9978-3791</p>
+            </div>
+            <div class="col-lg-4">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="text-white">Home</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="text-white">Siga-nos</h2>
+                <div class="social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
